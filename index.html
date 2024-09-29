@@ -610,6 +610,100 @@
             </button>
           </form>
         </div>
+        <!-- Modal Container -->
+        <div class="modal-overlay">
+          <div class="modal-window">
+            <!-- Close Button -->
+            <button type="button" class="close-btn">
+              <svg class="close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <!-- Modal Content -->
+            <p class="modal-caption">Subscribe to our newsletter</p>
+            <form class="modal-form">
+              <!-- Name Input -->
+              <div class="input-group">
+                <label class="input-label" for="user-name">Name</label>
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    id="user-name"
+                    name="user-name"
+                    class="input-field"
+                    placeholder="Your Name"
+                  />
+                  <svg class="input-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-person"></use>
+                  </svg>
+                </div>
+              </div>
+              <!-- Phone Input -->
+              <div class="input-group">
+                <label class="input-label" for="user-phone">Phone</label>
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    id="user-phone"
+                    name="user-phone"
+                    class="input-field"
+                    placeholder="Your Phone"
+                  />
+                  <svg class="input-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                  </svg>
+                </div>
+              </div>
+              <!-- Email Input -->
+              <div class="input-group">
+                <label class="input-label" for="user-email">Email</label>
+                <div class="input-wrapper">
+                  <input
+                    type="email"
+                    id="user-email"
+                    name="user-email"
+                    class="input-field"
+                    placeholder="Your Email"
+                  />
+                  <svg class="input-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-email"></use>
+                  </svg>
+                </div>
+              </div>
+              <!-- Comment Input -->
+              <div class="input-group">
+                <label class="input-label" for="user-comment">Comment</label>
+                <textarea
+                  id="user-comment"
+                  name="user-comment"
+                  class="textarea-field"
+                  placeholder="Your Comment"
+                ></textarea>
+              </div>
+              <!-- Privacy Checkbox -->
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  id="user-privacy"
+                  name="user-privacy"
+                  value="true"
+                  class="checkbox-input visually-hidden"
+                />
+                <label class="checkbox-label" for="user-privacy">
+                  I accept the terms and conditions of the
+                  <a href="#" class="privacy-link">Privacy Policy</a>
+                </label>
+                <span class="checkbox-box">
+                  <svg class="checkbox-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+              </div>
+              <!-- Submit Button -->
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
     <!--#endregion footer-->
