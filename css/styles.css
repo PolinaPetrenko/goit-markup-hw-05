@@ -740,14 +740,13 @@ address{
     color: #ffffff;
     margin-bottom: 16px;
 }
-
-/* Container for subscription form */
+/* Subscription Container */
 .footer-subscribe-container {
     margin-top: 40px;
 }
 
-/* Caption for subscribe section */
-.footer-caption {
+/* Caption for subscription section */
+.subscribe-caption {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -760,6 +759,11 @@ address{
 .subscribe-form {
     display: flex;
     gap: 24px;
+}
+
+/* Subscribe label */
+.subscribe-label {
+    display: block;
 }
 
 /* Input field for email */
@@ -777,7 +781,6 @@ address{
     color: #ffffff;
 }
 
-/* Placeholder style */
 .subscribe-input::placeholder {
     color: #ffffff;
 }
@@ -796,7 +799,7 @@ address{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    background-color: #4d5ae5;
+    background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
 }
